@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Twice Gallery</title>
+</head>
+<body>
+    <div>
+      <img  class="responsive" src="./img/logo.png" alt="logo">
+<h1   font-style="MontserratS" >TWICE API</h1>
+<h2></h2>
+
+<p>Here you can find stuff that will make your life easier</p>
+
+<img src="./img/header.jpg" alt="header">
+
+<div class="tabs">
+  <input type="radio" name="tabs" id="tabone" checked="checked">
+  <label for="tabone">Images</label>
+  <div class="tab">
+    <h2></h2>
+    <img id="images" src="" >
+  </div>
+  
+  <input type="radio" name="tabs" id="tabtwo">
+  <label for="tabtwo">Fancam</label>
+  <div class="tab">
+    <h2>STIL UNDER DELEOPMENT</h2>
+    <p>STIL UNDER DELEOPMENT</p>
+  </div>
+  
+  <input type="radio" name="tabs" id="tabthree">
+  <label for="tabthree">Members</label>
+  <div class="tab">
+    <h2>STIL UNDER DELEOPMENT</h2>
+    <p>STIL UNDER DELEOPMENT</p>
+  </div>
+</div>
+</div>
+<h2>This project is run by one guy(Aki) so it will take a while its fully done.</h2>
+<h2>Your contribution is always appreciated<br>aki@twicegallery.cf</h2>
+<img src="">
+<script>
+  const element = document.getElementsByTagName("img");
+  const random = Math.floor(Math.random() * 4028 ) + 1;
+  /*const random1 = []
+
+  var aaa = ["cow", "pig", "dog"];
+var num = Math.floor(Math.random() * (aaa.length));
+document.getElementById("demo").innerHTML = aaa[num] */
+
+
+  document.getElementById("images").src = 'https://media.githubusercontent.com/media/ivAkii/twicegallery/main/img/nayeon/' + random + '.jpg';
+  
+  </script>
+</body>
+</html>
