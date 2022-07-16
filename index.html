@@ -7,15 +7,16 @@
 
     <title>Twice Gallery</title>
 </head>
+<link rel="shortcut icon" href="./img/logo.png">
 <body>
     <div>
       <img  class="responsive" src="./img/logo.png" alt="logo">
-<h1   font-style="MontserratS" >TWICE API</h1>
+<h1   font-style="MontserratS" >TWICE Gallery</h1>
 <h2></h2>
 
-<p>Here you can find stuff that will make your life easier</p>
-
+<img src="./img/logo.png" class="reloadb" onClick="window.location.reload();">
 <img src="./img/header.jpg" alt="header">
+
 
 <div class="tabs">
   <input type="radio" name="tabs" id="tabone" checked="checked">
@@ -53,7 +54,7 @@ var num = Math.floor(Math.random() * (aaa.length));
 document.getElementById("demo").innerHTML = aaa[num] */
 
 
-  document.getElementById("images").src = 'https://media.githubusercontent.com/media/ivAkii/twicegallery/main/img/nayeon/' + random + '.jpg';
+  document.getElementById("images").src = 'https://twicegallery.s3.ap-southeast-1.amazonaws.com/nayeon/' + random + '.jpg' || ".jpeg";
   
   </script>
 </body>
