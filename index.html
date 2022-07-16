@@ -43,7 +43,7 @@
 </div>
 <h2>This project is run by one guy(Aki) so it will take a while its fully done.</h2>
 <h2>Your contribution is always appreciated<br>aki@twicegallery.cf</h2>
-<img class="reloadb" src="./img/logo.png"  onClick="window.location.reload();">
+<img class="reloadb" src="./img/reload.png" onClick="window.location.reload();";>
 <script>
   const element = document.getElementsByTagName("img");
   const random = Math.floor(Math.random() * 4028 ) + 1;
@@ -53,9 +53,8 @@
 var num = Math.floor(Math.random() * (aaa.length));
 document.getElementById("demo").innerHTML = aaa[num] */
 
+  document.getElementById("images").src = 'https://twicegallery.s3.ap-southeast-1.amazonaws.com/nayeon/' + random + '.jpg';
 
-  document.getElementById("images").src = 'https://twicegallery.s3.ap-southeast-1.amazonaws.com/nayeon/' + random + '.jpg' || ".jpeg";
-  
   </script>
 </body>
 </html>
