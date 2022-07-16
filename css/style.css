@@ -20,9 +20,12 @@ body {
 
 .responsive {
   width: 100%;
-  max-width: 100px;
+  
   height: auto;
 }
+
+
+
 
 img {
 width: 100%;
@@ -113,10 +116,10 @@ body::-webkit-scrollbar-thumb {
 
 
 
-@media screen and (max-width: 480px) {}
 
 
-.reloadb {
+
+.reloadb{
  position: fixed;
   right: 20px;
   top: 85%;
@@ -124,3 +127,28 @@ body::-webkit-scrollbar-thumb {
   z-index: 9999;
  
   }
+/*
+  .headerimg{
+    position: relative;
+    left: -50%;
+    
+  }
+  
+  @media screen and (max-width: 460px) {
+    .headerimg{
+      position: relative;
+      left: -15%;
+      width: 500px;
+      height: auto;
+    }
+    
+  .reloadb{
+    position: fixed;
+     left: 50%;
+     top: 85%;
+     max-width: 8%;
+     z-index: 9999;
+    
+     }
+  }
+  */
